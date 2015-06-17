@@ -1,14 +1,29 @@
+# Syntax highlighting
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Блог Ивана Дианова
+email:               your-email@domain.com
+tagline:             Basic example of a Jekyll site with Sass enabled.
+url:                 http://illus0r.github.io/jekyll-test # the base hostname & protocol for your site
+baseurl:             /jekyll-test/
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
 # Site settings
-title: Блог Ивана Дианова
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://illus0r.github.io/jekyll-test/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  illus0r
 
 # Build settings
 markdown: kramdown
